@@ -3,13 +3,19 @@
 The promise of a World Computer
 ---
 
-### What is Blockchain??
+### What the Blockchain??
 
 +++
 
-test
+Roleplay: Real money transaction
 
++++
+
+Roleplay: (Simulated) PayNow transaction
+
++++
+
+Explanation: Distributed Ledger Technology
 
 ---
-
-![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
+![Blockchain World](./images/blockchain_world.svg)
