@@ -59,18 +59,28 @@ Nodes
 
 +++
 
-Transactions
+Transaction
 
-A collection of opcodes that take a prior state and ends in a new state
-
-+++
-
-Contracts 
+An atomic list of operations that act on the current state to return a new state
 
 +++
 
-Addresses
+User Accounts
+- have an address (e.g 0x6273060 ... a8BEf57)
+- have a balance
+- are the origins of transactions
+- addresses are derived from private key
+
+Note:
+Addresses are 160 bits (40 hex chars)
 
 +++
 
-Wallets
+Smart Contract Accounts
+![Smart Contract Accounts](./images/smartcontract_accounts.png)
+[Ref: Gjermund Bjaanes](http://www.gjermundbjaanes.com/understanding-ethereum-smart-contracts/)
+
+Note:
+Every instance of a smart contract is uniquely located at an address
+Can call other smart contracts
+
