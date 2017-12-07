@@ -1,10 +1,9 @@
-# Flux 
+# Intro to Ethereum & Solidity 
 
-An application architecture for React
-
+The promise of a World Computer
 ---
 
-### Flux Design
+### What is Blockchain??
 
 - Dispatcher: Manages Data Flow
 - Stores: Handle State & Logic
