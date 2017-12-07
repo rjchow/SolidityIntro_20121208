@@ -17,5 +17,5 @@ Roleplay: (Simulated) PayNow transaction
 
 Explanation: Distributed Ledger Technology
 
+![Blockchain World](./images/blockchain_world.png)
 ---
-![Blockchain World](./images/blockchain_world.svg)
