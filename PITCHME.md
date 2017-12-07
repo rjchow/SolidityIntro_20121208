@@ -5,9 +5,10 @@ The promise of a World Computer
 
 ### What is Blockchain??
 
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
++++
+
+test
+
 
 ---
 
