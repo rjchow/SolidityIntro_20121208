@@ -85,3 +85,9 @@ Note:
 Every instance of a smart contract is uniquely located at an address
 Can call other smart contracts
 
+---
+
+###
+Ok, Enough Words.
+
+
