@@ -19,7 +19,7 @@ Explanation: Distributed Ledger Technology
 
 ![Blockchain World](./images/blockchain_world.png)
 
-Notes:
+Note:
 
 ---
 
@@ -41,7 +41,7 @@ Ether
 - Gas
 - GasPrice
 
-Notes:
+Note:
 Opcode Costs
 math, conditionals, jumps 0-10
 creating contract 32000
