@@ -36,10 +36,10 @@ Ethereum Virtual Machine
 
 +++
 
-Ether
+### Ether
 - Ether     : A transferable unit of value
 - Gas       : The cost of an opcode 
-- GasPrice  : How many ethers per unit of gas
+- Gas Price  : How many ethers per unit of gas
 
 Note:
 Opcode Costs
@@ -52,20 +52,22 @@ maximum block gas limit 6.7m
 ~ US$0.532 / 21000 gas 
 +++
 
-Nodes
-- are Ethereum clients that connect to the network and store a copy of the blockchain
+### Nodes
+- Ethereum clients that connect to the network and store a copy of the blockchain
 - All Miners are nodes, not all nodes are Miners
-- Miners have a say in eventual consistency of the blockchain
+- Miners influence eventual consistency of the blockchain
 
 +++
 
-Transaction
+### Transaction
 
-An atomic list of operations that act on the current state to return a new state
+An atomic list of operations that act 
+
+on the current state to return a new state
 
 +++
 
-User Accounts
+### User Accounts
 - have an address (e.g 0x6273060 ... a8BEf57)
 - have a balance
 - are the origins of transactions
@@ -75,9 +77,8 @@ Note:
 Addresses are 160 bits (40 hex chars)
 
 +++
-
-Smart Contract Accounts
 ![Smart Contract Accounts](./images/smartcontract_accounts.png)
+
 [Ref: Gjermund Bjaanes](http://www.gjermundbjaanes.com/understanding-ethereum-smart-contracts/)
 
 Note:
