@@ -37,9 +37,9 @@ Ethereum Virtual Machine
 +++
 
 Ether
-- Ether     : a transferable unit of value
-- Gas       : the cost of an opcode 
-- GasPrice  : how many ethers per unit of gas
+- Ether     : A transferable unit of value
+- Gas       : The cost of an opcode 
+- GasPrice  : How many ethers per unit of gas
 
 Note:
 Opcode Costs
@@ -49,18 +49,19 @@ blockchain variable storage 20000
 transaction 21000
 maximum block gas limit 6.7m
 
-
+~ US$0.532 / 21000 gas 
 +++
 
 Nodes
-
-+++
-
-Wallets
+- are Ethereum clients that connect to the network and store a copy of the blockchain
+- All Miners are nodes, not all nodes are Miners
+- Miners have a say in eventual consistency of the blockchain
 
 +++
 
 Transactions
+
+A collection of opcodes that take a prior state and ends in a new state
 
 +++
 
@@ -69,3 +70,7 @@ Contracts
 +++
 
 Addresses
+
++++
+
+Wallets
