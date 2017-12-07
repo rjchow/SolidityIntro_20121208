@@ -37,9 +37,9 @@ Ethereum Virtual Machine
 +++
 
 Ether
-- Ether
-- Gas
-- GasPrice
+- Ether     : a transferable unit of value
+- Gas       : the cost of an opcode 
+- GasPrice  : how many ethers per unit of gas
 
 Note:
 Opcode Costs
