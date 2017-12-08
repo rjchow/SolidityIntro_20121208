@@ -90,6 +90,8 @@ Can call other smart contracts
 ### How to Interact?
 
 ![All Together Now](./images/alltogethernow.png)
+
+ 
 [Ref: Mahest Murthy](https://medium.com/@mvmurthy/ethereum-for-web-developers-890be23d1d0c)
 
 ---

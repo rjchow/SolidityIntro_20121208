@@ -1,45 +1,52 @@
 pragma solidity ^0.4.19;
 
 contract Conference { 
+    
     address public organizer;
-    mapping (address => uint) public registrantsPaid;
-    uint public numRegistrants;
+    
+    mapping (address => uint) public registrantsPaid; // Like a hash table
+    
+    uint public numRegistrants;  // Unsigned Integer
     uint public quota;
     
-    // so you can log these events
+    // Event logs are the cheapest way of returning data from transactions
     event Deposit(address _from, uint _amount); 
     event Refund(address _to, uint _amount);
   
+  
+    // Modifiers can be thought of as a way to wrap a function with another function
     modifier onlyOrganizer() {
         require(msg.sender == organizer);
-        _;
+        _; // Executes wrapped function
     }
 
+    // Constructors are run only once upon contract initialisation
+    // Further calls to it will fail
     function Conference()
         public
-    { // Constructor
+    {
         organizer = msg.sender;
         quota = 500;
         numRegistrants = 0;
     }
   
     function buyTicket()
-        payable 
+        payable   // Only functions marked payable can receive ether value
         public 
-        returns (bool success) 
+        returns (bool success)  // Return values have to be clearly defined
     {
         if (numRegistrants >= quota) {
             revert(); 
-        } // see footnote
-        registrantsPaid[msg.sender] = msg.value;
-        numRegistrants++;
+        }
+        registrantsPaid[msg.sender] = msg.value; // Setting a value in the mapping
+        numRegistrants += 1;
         Deposit(msg.sender, msg.value);
         return true;
     }
   
-    function changeQuota(uint newquota) 
+    function changeQuota(uint newquota) // uint parameter
         public 
-        onlyOrganizer 
+        onlyOrganizer  // modifier
     {
         quota = newquota;
     }
